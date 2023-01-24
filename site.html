@@ -19,13 +19,13 @@
 		}
 		#menu{
 			width: 20%;
-			height: 1200px;
+			height: 800px;
 			background-color: pink;
 			float: left;
 		}
 		#content{
 			width: 80%;
-			height: 1200px;
+			height: 800px;
 			background-color: blue;
 			float: left;
 		}
@@ -40,9 +40,6 @@
 			background-color: magenta;
 			clear: both;
 		}
-		a{
-			text-decoration: none;
-		}
 .button-64 {
   align-items: center;
   background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
@@ -56,8 +53,8 @@
   font-size: 20px;
   justify-content: center;
   line-height: 1em;
-  width: 80%;
-
+  max-width: 100%;
+  min-width: 140px;
   padding: 3px;
   text-decoration: none;
   user-select: none;
@@ -66,7 +63,6 @@
   white-space: nowrap;
   cursor: pointer;
   margin-left: 20px;
-  margin-top: 20px;
 }
 
 .button-64:active,
@@ -110,22 +106,18 @@
 	margin-top: 50px;
 	}
 	</style>
- 
+}
 </head>
 <body>
 <header><h1>сайт Софії</h1></header>
 <div id="menu"><h2>Menu</h2>
 <a href="bloks.html" target="blank"><button class="button-64" role="button"><span class="text">Блоки</span></button></a>
 <a href="lings.html" target="blank"><button class="button-64" role="button"><span class="text">Посилання</span></button></a>
-<a href="image.html" target="blank"><button class="button-64" role="button"><span class="text">Зображення</span></button></a>
-<a href="text.html" target="blank"><button class="button-64" role="button"><span class="text">Текст</span></button></a>
-<a href="loop.html" target="blank"><button class="button-64" role="button"><span class="text">Калькулятор</span></button></a>
-<a href="programming.html" target="blank"><button class="button-64" role="button"><span class="text">Програмування</span></button></a>
 </div>
 <div id="content"><h2>Про мене</h2>
 <img id="image1" src="Lighthouse.jpg" alt="lighthouse">
 <img id="image2" src="Desert.jpg" alt="Desert">
-<p>Мене звуть Софія і мені 12 років.Я народилася в місті Краматорськ 21 вересня.Я полюбляю грати в комп'ютерні ігри.Також в мене є такі хобі:  плетіння з бісеру, малювання, і ще багато чого схожого.</p>
+<p>Мене звуть Софія і мені 12 років.Я народилася в місті Краматорськ 21 вересня.Я полюбляю грати в комп'ютерні ігри.Також в мене є такі хобі:  плетіння з бісеру...</p>
 </div>
 <footer><h2>Мої контакти</h2></footer>
 </body>
